@@ -1,0 +1,7 @@
+{
+  "name": "EindOpdrachtPwa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
