@@ -5,7 +5,8 @@
       <!-- Loop door elk team -->
       <div v-for="team in teams" :key="team.team">
         <!-- Voor elk team, loop door de drivers en maak een card voor elke driver-->
-        <ion-card v-for="driver in team.drivers" :key="driver.name">
+        <div v-for="driver in team.drivers" :key="driver.name">
+        <ion-card  @click="navigateToDriver(driver.id)">
           <!-- Afbeelding coureur en racenummer -->
           <img class="driver-image" :alt="driver.name" :src="driver.img" />
           <img class="number-image" :src="driver.driverNumberImg" />
@@ -21,13 +22,16 @@
 
         </ion-card>
       </div>
+      </div>
     </ion-content>
   </ion-page>
 </template>
 
 <script>
 import teams from '@/data/teams.json';
-import AppHeader from './AppHeader.vue'
+import AppHeader from './AppHeader.vue';
+import { navigate } from 'ionicons/icons';
+import { useRouter } from 'vue-router';
 
 export default {
   components: {
@@ -37,6 +41,16 @@ export default {
     return {
       teams // Laad de teams.json data in de teams variabele
     };
+  },
+  methods: {
+    navigateToDriver(id) {
+      // Navigeer naar de driver pagina
+      this.$router.push(`/tabs/driverDetails/${id}`);
+    }
+  },
+  setup() {
+    const router = useRouter();
+    return {router};
   }
 }
 </script>
@@ -55,3 +69,8 @@ export default {
   height: auto;
 }
 </style>
+
+<script setup>
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
+import ExploreContainer from '@/components/ExploreContainer.vue';
+</script>

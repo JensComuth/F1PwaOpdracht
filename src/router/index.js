@@ -1,10 +1,16 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import TabsPage from '../views/TabsPage.vue'
+import DriverDetails from '../components/DriverDetails.vue';
 
 const routes = [
   {
     path: '/',
     redirect: '/tabs/news'
+  },
+  {
+    path: '/tabs/driverDetails/:id',
+    name: 'DriverDetails',
+    component: DriverDetails,
   },
   {
     path: '/tabs/',

@@ -5,6 +5,7 @@
     "teamCar": "/Images/Cars/red-bull-racing.avif",
     "drivers": [
       {
+          "id": 1,
           "name": "Max Verstappen",
           "img": "/Images/Drivers/maxver01.avif",
           "country": "Netherlands",
@@ -23,6 +24,7 @@
           "age": 26
       },
       {
+          "id": 2,
           "name": "Sergio Perez",
           "img": "/Images/Drivers/serper01.avif",
           "country": "Mexico",
@@ -48,6 +50,7 @@
     "teamCar": "/Images/Cars/ferrari.avif",
     "drivers": [
       {
+          "id": 3,
           "name": "Charles Leclerc",
           "img": "/Images/Drivers/chalec01.avif",
           "country": "Monaco",
@@ -66,6 +69,7 @@
           "age": 26
       },
       {
+          "id": 4,
           "name": "Carlos Sainz",
           "img": "/Images/Drivers/carsai01.avif",
           "country": "Spain",
@@ -91,6 +95,7 @@
     "teamCar": "/Images/Cars/mclaren.avif",
     "drivers": [
       {
+          "id": 5,
           "name": "Lando Norris",
           "img": "/Images/Drivers/lannor01.avif",
           "country": "United Kingdom",
@@ -109,6 +114,7 @@
           "age": 24
       },
       {
+          "id": 6,
           "name": "Oscar Piastri",
           "img": "/Images/Drivers/oscpia01.avif",
           "country": "Australia",
@@ -134,6 +140,7 @@
     "teamCar": "/Images/Cars/mercedes.avif",
     "drivers": [
       {
+        "id": 7,
         "name": "Lewis Hamilton",
         "img": "/Images/Drivers/lewham01.avif",
         "country": "United Kingdom",
@@ -152,6 +159,7 @@
         "age": 39
       },
       {
+        "id": 8,
         "name": "George Russell",
         "img": "/Images/Drivers/georus01.avif",
         "country": "United Kingdom",
@@ -177,6 +185,7 @@
     "teamCar": "/Images/Cars/aston-martin.avif",
     "drivers": [
       {
+        "id": 9,
         "name": "Fernando Alonso",
         "img": "/Images/Drivers/feralo01.avif",
         "country": "Spain",
@@ -195,6 +204,7 @@
         "age": 42
       },
       {
+        "id": 10,
         "name": "Lance Stroll",
         "img": "/Images/Drivers/lanstr01.avif",
         "country": "Canada",
@@ -220,6 +230,7 @@
     "teamCar": "/Images/Cars/rb.avif",
     "drivers": [
       {
+        "id": 11,
         "name": "Yuki Tsunoda",
         "img": "/Images/Drivers/yuktsu01.avif",
         "country": "Japan",
@@ -238,6 +249,7 @@
         "age": 24
       },
       {
+        "id": 12,
         "name": "Daniel Ricciardo",
         "img": "/Images/Drivers/danric01.avif",
         "country": "Australia",
@@ -263,6 +275,7 @@
     "teamCar": "/Images/Cars/haas.avif",
     "drivers": [
       {
+        "id": 13,
         "name": "Kevin Magnussen",
         "img": "/Images/Drivers/kevmag01.avif",
         "country": "Denmark",
@@ -281,6 +294,7 @@
         "age": 31
       },
       {
+        "id": 14,
         "name": "Nico Hulkenberg",
         "img": "/Images/Drivers/nichul01.avif",
         "country": "Germany",
@@ -306,6 +320,7 @@
     "teamCar": "/Images/Cars/alpine.avif",
     "drivers": [
       {
+        "id": 15,
         "name": "Esteban Ocon",
         "img": "/Images/Drivers/estoco01.avif",
         "country": "France",
@@ -324,6 +339,7 @@
         "age": 27
       },
       {
+        "id": 16,
         "name": "Pierre Gasly",
         "img": "/Images/Drivers/piegas01.avif",
         "country": "France",
@@ -349,6 +365,7 @@
     "teamCar": "/Images/Cars/williams.avif",
     "drivers": [
       {
+        "id": 17,
         "name": "Alexander Albon",
         "img": "/Images/Drivers/alealb01.avif",
         "country": "Thailand",
@@ -367,6 +384,7 @@
         "age": 28
       },
       {
+        "id": 18,
         "name": "Logan Sargeant",
         "img": "/Images/Drivers/logsar01.avif",
         "country": "United States",
@@ -392,6 +410,7 @@
     "teamCar": "/Images/Cars/kick-sauber.avif",
     "drivers": [
       {
+        "id": 19,
         "name": "Valtteri Bottas",
         "img": "/Images/Drivers/valbot01.avif",
         "country": "Finland",
@@ -410,6 +429,7 @@
         "age": 34
       },
       {
+        "id": 20,
         "name": "Guanyu Zhou",
         "img": "/Images/Drivers/guazho01.avif",
         "country": "China",

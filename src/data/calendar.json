@@ -1,0 +1,194 @@
+{
+    "calendar": [
+        {
+            "id": 1,
+            "race": "Australian Grand Prix",
+            "track": "Albert Park Circuit",
+            "country": "Australia",
+            "flag": "/Images/RaceFlags/australia.avif",
+            "date": "2024-03-17",
+            "time": "06:00",
+            "length_km": 5.303,
+            "average_speed_kmh": 235,
+            "number_of_laps": 58,
+            "total_distance_km": 307.574,
+            "first_grand_prix": 1996,
+            "lap_record": {
+                "time": "1:20.260",
+                "driver": "Charles Leclerc",
+                "year": 2022
+            }
+        },
+        {
+            "id": 2,
+            "race": "Bahrain Grand Prix",
+            "track": "Bahrain International Circuit",
+            "country": "Bahrain",
+            "flag": "/Images/RaceFlags/bahrain.avif",
+            "date": "2024-03-31",
+            "time": "16:00",
+            "length_km": 5.412,
+            "average_speed_kmh": 222,
+            "number_of_laps": 57,
+            "total_distance_km": 308.238,
+            "first_grand_prix": 2004,
+            "lap_record": {
+                "time": "1:31.447",
+                "driver": "Pedro de la Rosa",
+                "year": 2005
+            }
+        },
+        {
+            "id": 3,
+            "race": "Chinese Grand Prix",
+            "track": "Shanghai International Circuit",
+            "country": "China",
+            "flag": "/Images/RaceFlags/china.avif",
+            "date": "2024-04-14",
+            "time": "08:00",
+            "length_km": 5.451,
+            "average_speed_kmh": 215,
+            "number_of_laps": 56,
+            "total_distance_km": 305.066,
+            "first_grand_prix": 2004,
+            "lap_record": {
+                "time": "1:32.238",
+                "driver": "Michael Schumacher",
+                "year": 2004
+            }
+        },
+        {
+            "id": 4,
+            "race": "Spanish Grand Prix",
+            "track": "Circuit de Barcelona-Catalunya",
+            "country": "Spain",
+            "flag": "/Images/RaceFlags/spain.avif",
+            "date": "2024-05-12",
+            "time": "14:00",
+            "length_km": 4.675,
+            "average_speed_kmh": 206,
+            "number_of_laps": 66,
+            "total_distance_km": 307.104,
+            "first_grand_prix": 1991,
+            "lap_record": {
+                "time": "1:18.149",
+                "driver": "Max Verstappen",
+                "year": 2021
+            }
+        },
+        {
+            "id": 5,
+            "race": "Monaco Grand Prix",
+            "track": "Circuit de Monaco",
+            "country": "Monaco",
+            "flag": "/Images/RaceFlags/monaco.avif",
+            "date": "2024-05-26",
+            "time": "15:00",
+            "length_km": 3.337,
+            "average_speed_kmh": 157,
+            "number_of_laps": 78,
+            "total_distance_km": 260.286,
+            "first_grand_prix": 1950,
+            "lap_record": {
+                "time": "1:12.909",
+                "driver": "Lewis Hamilton",
+                "year": 2021
+            }
+        },
+        {
+            "id": 6,
+            "race": "Canadian Grand Prix",
+            "track": "Circuit Gilles Villeneuve",
+            "country": "Canada",
+            "flag": "/Images/RaceFlags/canada.avif",
+            "date": "2024-06-09",
+            "time": "14:00",
+            "length_km": 4.361,
+            "average_speed_kmh": 210,
+            "number_of_laps": 70,
+            "total_distance_km": 305.27,
+            "first_grand_prix": 1978,
+            "lap_record": {
+                "time": "1:13.078",
+                "driver": "Valtteri Bottas",
+                "year": 2019
+            }
+        },
+        {
+            "id": 7,
+            "race": "British Grand Prix",
+            "track": "Silverstone Circuit",
+            "country": "United Kingdom",
+            "flag": "/Images/RaceFlags/british.avif",
+            "date": "2024-07-14",
+            "time": "15:00",
+            "length_km": 5.891,
+            "average_speed_kmh": 240,
+            "number_of_laps": 52,
+            "total_distance_km": 306.198,
+            "first_grand_prix": 1950,
+            "lap_record": {
+                "time": "1:27.097",
+                "driver": "Max Verstappen",
+                "year": 2020
+            }
+        },
+        {
+            "id": 8,
+            "race": "Italian Grand Prix",
+            "track": "Autodromo Nazionale Monza",
+            "country": "Italy",
+            "flag": "/Images/RaceFlags/italy.avif",
+            "date": "2024-09-08",
+            "time": "15:00",
+            "length_km": 5.793,
+            "average_speed_kmh": 253,
+            "number_of_laps": 53,
+            "total_distance_km": 306.72,
+            "first_grand_prix": 1950,
+            "lap_record": {
+                "time": "1:21.046",
+                "driver": "Rubens Barrichello",
+                "year": 2004
+            }
+        },
+        {
+            "id": 9,
+            "race": "United States Grand Prix",
+            "track": "Circuit of the Americas",
+            "country": "United States",
+            "flag": "/Images/RaceFlags/usa.avif",
+            "date": "2024-10-20",
+            "time": "14:00",
+            "length_km": 5.513,
+            "average_speed_kmh": 210,
+            "number_of_laps": 56,
+            "total_distance_km": 308.405,
+            "first_grand_prix": 2012,
+            "lap_record": {
+                "time": "1:36.169",
+                "driver": "Charles Leclerc",
+                "year": 2019
+            }
+        },
+        {
+            "id": 10,
+            "race": "Abu Dhabi Grand Prix",
+            "track": "Yas Marina Circuit",
+            "country": "United Arab Emirates",
+            "flag": "/Images/RaceFlags/abudhabi.avif",
+            "date": "2024-12-01",
+            "time": "14:00",
+            "length_km": 5.554,
+            "average_speed_kmh": 200,
+            "number_of_laps": 55,
+            "total_distance_km": 305.355,
+            "first_grand_prix": 2009,
+            "lap_record": {
+                "time": "1:26.103",
+                "driver": "Max Verstappen",
+                "year": 2021
+            }
+        }
+    ]
+}

@@ -1,39 +1,54 @@
 <template>
   <ion-page>
-    <AppHeader />
-    <ion-content :fullscreen="true">
-      <!-- <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Calendar</ion-title>
-        </ion-toolbar>
-      </ion-header> -->
-
-      <ion-card color="medium">
-        <ion-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/1200px-Flag_of_Bahrain.svg.png" style="height: 100px; width:200px; padding-top: 5px;"></ion-img>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Calendar</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-card v-for="event in calendar.calendar" :key="event.id">
         <ion-card-header>
-          <ion-card-title>Bahrain</ion-card-title>
-          <ion-card-subtitle>Bahrain International Circuit</ion-card-subtitle>
+          <ion-card-subtitle>{{ event.track }}</ion-card-subtitle>
+          <ion-card-title>
+            <img :src="event.flag" alt="Country flag" class="flag" />
+            {{ event.race }}
+          </ion-card-title>
         </ion-card-header>
-
         <ion-card-content>
-          26-28 March
+          <p>{{ event.date }} {{ event.time }}</p>
+          
         </ion-card-content>
       </ion-card>
     </ion-content>
   </ion-page>
 </template>
 
+<style scoped>
+.flag {
+  width: 10%;
+  height: 25px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+</style>
 <script>
-import AppHeader from './AppHeader.vue'
-
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel } from '@ionic/vue';
+import calendar from '@/data/calendar.json';
 export default {
   components: {
-    AppHeader
+    IonPage,
+    IonHeader,
+    IonToolbar,
+    IonTitle,
+    IonContent,
+    IonList,
+    IonItem,
+    IonLabel
+  },
+  data() {
+    return {
+      calendar
+    };
   }
 }
-</script>
-
-<script setup>
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import ExploreContainer from '@/components/ExploreContainer.vue';
 </script>
